@@ -1,6 +1,6 @@
-# 1_hour_ELT_pipeline
+# ELT_pipeline
 
-A end-to-end ELT pipeline built with dbt, Snowflake, and Apache Airflow -- completed in about an hour as a demonstration of modern data stack fundamentals.
+A end-to-end ELT pipeline built with dbt, Snowflake, and Apache Airflow, as a demonstration of modern data stack fundamentals.
 
 Built with assistance from Claude.
 
