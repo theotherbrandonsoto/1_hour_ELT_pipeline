@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Astro / Airflow
+.env
+airflow_settings.yaml
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+webserver_config.py
+
+# OS
+.DS_Store
