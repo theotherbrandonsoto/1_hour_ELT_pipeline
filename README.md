@@ -8,6 +8,8 @@ Built with assistance from Claude.
 
 Raw order and line item data from Snowflake's built-in TPCH sample dataset is transformed through a layered dbt project and orchestrated by Airflow via Astronomer Cosmos.
 
+It simulates a wholesale supplier business and includes tables for orders, line items, customers, parts, suppliers, and more. The data is fictional but designed to mimic realistic business relationships and query patterns.
+
 The pipeline is scheduled to run daily and produces a `fct_orders` table joining order-level data with aggregated line item financials including gross sales and discount amounts. Designed for local development -- production deployment would use a hosted Airflow service such as Astronomer Cloud or AWS MWAA.
 
 ## Stack
